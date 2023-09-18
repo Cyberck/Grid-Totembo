@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 255px 255px 255px 255px;
+  grid-template-rows: 250px 100px 250px;
+  gap: 30px;
+}
+
+.box {
+  background: yellow;
+  border: 1px solid black;
+  width: 100%;
+  min-height: 200px;
+}
+
+.box1 {
+  border: 1px solid red;
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.box4 {
+  border: 2px solid green;
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
