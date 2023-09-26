@@ -16,7 +16,8 @@
 
 .wrapper {
   display: grid;
-  grid-template-columns: 255px 255px 255px 255px;
+  /*grid-template-columns: 255px 255px 255px 255px;*/
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 250px 100px 250px;
   gap: 30px;
 }
